@@ -4,8 +4,12 @@
     margin: 0;
 }
 
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .container {
-    width: 1171px;
+    width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +30,7 @@ a {
     background-color: black;
     color: #fff;
     height: 60px;
-    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
 }
 
 .main ul li {
@@ -60,7 +64,7 @@ a {
 }
 
 .main .botnavbar ul {
-    width: 800px;
+    width: 810px;
     position: relative;
 }
 
@@ -71,6 +75,8 @@ a {
 .main .botnavbar input {
     height: 40px;
     border: none;
+    padding: 0 15px;
+    width: 220px;
 }
 
 .main .botnavbar img {
@@ -90,31 +96,60 @@ a {
 
 .main .botnavbar .cart-icon {
     display: flex;
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
     border: none;
-    background-color: #d2985e;
     margin-top: 10px;
     margin-left: 15px;
+    padding-top: 0;
 }
 
-.main .botnavbar .cart-icon a{
+.main .botnavbar .cart-icon a {
+    background-color: #d2985e;
+    width: 40px;
+    height: 40px;
+    text-align: center;
     position: relative;
+    line-height: 50px;
 }
 
 .main .botnavbar a>img {
-    top: -16px;
-    right: -30px;
-    position: absolute;
 }
 
 .main .botnavbar ul div {
     font-size: 13px;
-    margin-top: 10px;
-    padding-top: 10px;
+
+    padding: 15px 20px;
     display: inline-block;
     background-color: #fff;
     color: #000;
     height: 40px;
+    margin-left: 0;
+}
+
+
+
+.menu .container a {
+    color: #000;
+    font-size: 13px;
+}
+
+.menu .container ul {
+    width: 945px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .container ul li {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu .container img {
+    width: 120px;
+    height: 40px;
+}
+
+.menu ul li.active a {
+    color: #e8603c;
 }
