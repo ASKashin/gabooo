@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1171px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    background-color: black;
+    color: #fff;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main ul li {
+    display: inline-block;
+    padding-top: 25px;
+    font-size: 13px;
+}
+
+.main .langmoney button {
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.main .langmoney li+li {
+    margin-left: 40px;
+}
+
+.main .langmoney ul {
+    position: relative;
+}
+
+.main .langmoney ul:first-child::before {
+    content: "";
+    background-image: url(../images/Flag.png);
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    bottom: 5px;
+    left: -22px;
+}
+
+.main .botnavbar ul {
+    width: 800px;
+    position: relative;
+}
+
+.main .btn-input {
+    padding-top: 10px;
+}
+
+.main .botnavbar input {
+    height: 40px;
+    border: none;
+}
+
+.main .botnavbar img {
+    width: 20px;
+    height: 20px;
+    background-color: #d2985e;
+}
+
+.main .botnavbar button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    background-color: #d2985e;
+}
+
+.main .botnavbar .cart-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #d2985e;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.main .botnavbar .cart-icon a{
+    position: relative;
+}
+
+.main .botnavbar a>img {
+    top: -16px;
+    right: -30px;
+    position: absolute;
+}
+
+.main .botnavbar ul div {
+    font-size: 13px;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    height: 40px;
+}
