@@ -192,3 +192,64 @@ a {
     width: 350px;
     height: 450px;
 }
+
+.popularnow .container {
+    display: block;
+    margin-top: 60px;
+}
+
+.popularnow .container h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    color: #d3995f;
+    padding-bottom: 40px;
+}
+
+.popularnow .container ul {
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
+}
+
+.popularnow .container ul li {
+    display: inline-block;
+}
+
+.popularnow .container a {
+    color: #2a2a2a;
+    font-size: 15px;
+}
+
+.popularnow ul li.active a {
+    color: #e8603c;
+}
+
+.popularnow .container .item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.popularnow .container .item img {
+    width: 270px;
+    height: 320px;
+    padding-bottom: 20px;
+}
+
+.popularnow .container .item p{
+    text-align: center;
+}
+.popularnow .container .item div> p:first-child {
+    color: #2a2a2a;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.popularnow .container .item div p+p{
+    color: #d3995f;
+    font-size: 15px;
+    text-transform: uppercase; 
+}
