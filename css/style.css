@@ -185,6 +185,7 @@ a {
     font-size: 20px;
     color: #2a2a2a;
     border-color: #d3995f;
+    /* border: 1px solid #d3995f; */
     background-color: #f9f9f9
 }
 
@@ -198,7 +199,7 @@ a {
     margin-top: 60px;
 }
 
-.popularnow .container h2 {
+.popularnow .container h3 {
     text-transform: capitalize;
     text-align: center;
     font-size: 30px;
@@ -239,17 +240,89 @@ a {
     padding-bottom: 20px;
 }
 
-.popularnow .container .item p{
+.popularnow .container .item p {
     text-align: center;
 }
-.popularnow .container .item div> p:first-child {
+
+.popularnow .container .item div>p:first-child {
     color: #2a2a2a;
     font-size: 15px;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
-.popularnow .container .item div p+p{
+
+.popularnow .container .item div p+p {
     color: #d3995f;
     font-size: 15px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
+
+.Collection {
+    background-color: #f9f9f9;
+}
+
+.Collection .container {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.Collection .container>div:first-child {
+    margin: 0 auto;
+    text-align: center;
+    width: 570px;
+    padding-bottom: 65px;
+}
+
+.Collection .container h3 {
+    font-size: 30px;
+    color: #d3995f;
+    text-transform: capitalize;
+    padding-bottom: 45px;
+}
+
+.Collection .container div h3~p {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #686868;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.Collection .container button {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    color: #2a2a2a;
+    border-color: #d3995f;
+    /* border: 1px solid #d3995f; */
+    background-color: #f9f9f9;
+}
+
+.Collection .collitem {
+    display: flex;
+    gap: 30px;
+}
+
+.Collection .container .collitem img {
+    width: 270px;
+    height: 200px;
+    padding-bottom: 25px;
+}
+
+.Collection .collitem div>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Collection .collitem div>p:first-child {
+    color: #2a2a2a;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.Collection .collitem div p+p {
+    color: #d3995f;
+    font-size: 15px;
+    text-transform: uppercase;
