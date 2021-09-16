@@ -427,6 +427,7 @@ a {
     font-size: 15px;
     background-color: #d2985e;
     border: none;
+    color: #fff;
 }
 
 .from-collection .container {
@@ -519,4 +520,101 @@ a {
 
 .about-us {
     background-color: #f9f9f9;
+}
+
+.about-us a {
+    color: #2a2a2a;
+}
+
+.about-us .flex>div {
+    flex: 1;
+}
+
+.about-us .panther {
+   background: url("../images/panther.jpg") left top no-repeat;
+   background-size: cover;
+}
+
+.about-us .info {
+    width: 590px;
+    padding: 60px 0 70px 116px;
+}
+
+.about-us .info h3 {
+    color: #2a2a2a;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+.about-us .info img {
+    padding-bottom: 40px;
+}
+
+.about-us .info p {
+    font-size: 15px;
+    color: #686868;
+    font-family: 'Lora', serif;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.about-us .info a {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #2a2a2a;
+    border: 1px solid #d2985e;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer{
+    background: #292929;
+    padding-top: 65px;
+}
+
+footer p,a{
+    color: #fff;
+    font-size: 13px;
+}
+
+footer .link{
+    font-size: 15px;
+    color: #fdfdfd;
+    padding-top: 0;
+}
+
+footer .pell{
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Lora', serif;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+footer .gab{
+    padding-top: 15px;
+}
+footer .gab span{
+    color: #d3995f;
+}
+footer ul li{
+    display: block;
+}
+
+footer .links li+li{
+    padding-top: 20px;
+}
+
+footer .shop li+li{
+    padding-top: 20px;
+}
+
+footer .container > div{
+    flex: 1;
+}
+footer .contactus ul li{
+    display: inline-block;
 }
