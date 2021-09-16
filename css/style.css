@@ -8,6 +8,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -68,14 +73,14 @@ a {
     left: 0px;
 }
 
-.main .botnavbar{
+.main .botnavbar {
     width: 850px;
     display: flex;
     justify-content: space-between;
 }
 
-.main .botnavbar > div{
-   display: flex;
+.main .botnavbar>div {
+    display: flex;
 }
 
 .main .botnavbar ul {
@@ -279,31 +284,31 @@ a {
     text-transform: uppercase;
 }
 
-.Collection {
+.collection {
     background-color: #f9f9f9;
 }
 
-.Collection .container {
+.collection .container {
     display: block;
     padding-top: 60px;
     padding-bottom: 70px;
 }
 
-.Collection .container>div:first-child {
+.collection .container>div:first-child {
     margin: 0 auto;
     text-align: center;
     width: 570px;
     padding-bottom: 65px;
 }
 
-.Collection .container h3 {
+.collection .container h3 {
     font-size: 30px;
     color: #d3995f;
     text-transform: capitalize;
     padding-bottom: 45px;
 }
 
-.Collection .container div h3~p {
+.collection .container div h3~p {
     font-family: 'Lora', serif;
     font-size: 15px;
     color: #686868;
@@ -311,7 +316,7 @@ a {
     padding-bottom: 40px;
 }
 
-.Collection .container p~a {
+.collection .container p~a {
     width: 170px;
     height: 50px;
     font-size: 15px;
@@ -321,33 +326,32 @@ a {
     line-height: 50px
 }
 
-.Collection .collitem {
+.collection .collitem {
     display: flex;
 }
 
-.Collection .collitem img {
+.collection .collitem img {
     width: 270px;
     height: 200px;
     padding-bottom: 25px;
 }
 
-.Collection .collitem ul li{
+.collection .collitem ul li {
     display: inline-block;
 }
 
-
-.Collection .collitem ul {
+.collection .collitem ul {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.Collection .collitem div{
+.collection .collitem div {
     display: flex;
     justify-content: space-between;
 }
 
-.Collection .collitem div>p:first-child {
+.collection .collitem div>p:first-child {
     color: #2a2a2a;
     font-size: 15px;
     text-transform: uppercase;
@@ -355,8 +359,119 @@ a {
     display: block;
 }
 
-.Collection .collitem div p+p {
+.collection .collitem div p+p {
     color: #d3995f;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.sale {
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+}
+
+.sale div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sale h3 {
+    font-size: 30px;
+    color: #d3995f;
+    text-transform: uppercase;
+    padding-top: 95px;
+    padding-bottom: 15px;
+}
+
+.sale p {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.newsletter {
+    background-color: #f9f9f9;
+    height: 115px;
+}
+
+.newsletter .container {
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.newsletter .container p {
+    font-size: 20px;
+    color: #2a2a2a;
+    line-height: 42px;
+}
+
+.newsletter .container .flex {
+    gap: 30px;
+}
+
+.newsletter .container .flex input {
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 470px;
+    height: 42px;
+    border: 1px solid #d2985e;
+    background-color: #f9f9f9;
+    padding-left: 25px;
+}
+
+.newsletter .container .flex button {
+    width: 170px;
+    height: 42px;
+    font-size: 15px;
+    background-color: #d2985e;
+    border: none;
+}
+
+.from-collection .container {
+    display: block;
+}
+
+.from-collection a {
+    color: #2a2a2a;
+}
+
+.from-collection .title h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #d3995f;
+    padding-top: 56px;
+}
+
+.from-collection .title p {
+    font-size: 15px;
+    color: #686868;
+    font-family: 'Lora', serif;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.from-collection .title.flex ul{
+    gap: 5px;
+    margin-top: 120px;
+}
+
+.from-collection nav li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #d2985e;
+    line-height: 50px;
+    text-align: center;
+}
+
+.from-collection .title.flex a{
+    font-size: 15px;
+    color: #2a2a2a;
+}
+
+.from-collection .title.flex {
+    padding-bottom: 65px;
+    gap: 290px;
 }
