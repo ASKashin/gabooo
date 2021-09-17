@@ -593,6 +593,8 @@ footer .pell {
     font-family: 'Lora', serif;
     padding-bottom: 50px;
     padding-top: 30px;
+    width: 371px;
+    padding-right: 30px;
 }
 
 footer .gab {
@@ -625,6 +627,7 @@ footer div .get {
     line-height: 30px;
     padding-top: 15px;
     padding-bottom: 40px;
+    width: 340px;
 }
 
 footer div .graf {
@@ -648,6 +651,6 @@ footer .container > div{
     width: 370px;
 }
 
-/* footer .container nav + nav{
-    width: 101;
-} */
+footer .container > div,nav{
+   flex: 1;
+}
