@@ -369,19 +369,19 @@ a {
     background-color: #000;
     height: 300px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .sale div {
     text-align: center;
-    margin: 0 auto;
 }
 
 .sale h3 {
     font-size: 30px;
     color: #d3995f;
     text-transform: uppercase;
-    padding-top: 95px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .sale p {
@@ -413,12 +413,15 @@ a {
 
 .newsletter .container .flex input {
     font-size: 15px;
-    text-transform: capitalize;
     width: 470px;
     height: 42px;
     border: 1px solid #d2985e;
     background-color: #f9f9f9;
     padding-left: 25px;
+}
+
+.newsletter .container .flex input::placeholder {
+    text-transform: capitalize;
 }
 
 .newsletter .container .flex button {
@@ -477,12 +480,13 @@ a {
     gap: 290px;
 }
 
-.from-collection .collection-items {
-    padding-bottom: 45px;
+.from-collection .collection-items ul{
+    flex-wrap: wrap;
 }
 
 .from-collection .collection-items li {
-    display: inline-block;
+    margin-bottom: 45px;
+    display: block;
 }
 
 .from-collection .collection-items img {
@@ -576,12 +580,17 @@ footer {
     padding-bottom: 60px;
 }
 
+footer .container {
+    gap: 30px;
+}
+
 footer p, a {
     color: #fff;
     font-size: 13px;
 }
 
-footer .link {
+footer h4 {
+    font-weight: 400;
     font-size: 15px;
     color: #fdfdfd;
     padding-top: 0;
@@ -593,8 +602,6 @@ footer .pell {
     font-family: 'Lora', serif;
     padding-bottom: 50px;
     padding-top: 30px;
-    width: 371px;
-    padding-right: 30px;
 }
 
 footer .gab {
@@ -609,12 +616,8 @@ footer ul li {
     display: block;
 }
 
-footer .links li+li {
-    padding-top: 20px;
-}
-
-footer .shop li+li {
-    padding-top: 20px;
+footer nav ul li {
+    margin-top: 20px;
 }
 
 footer .contactus ul li {
@@ -634,9 +637,8 @@ footer div .graf {
     font-size: 15px;
     color: #fdfdfd;
     border: 1px solid #d2985e;
-    width: 370px;
     height: 45px;
-    line-height: 40px;
+    line-height: 45px;
     text-align: center;
 }
 
@@ -647,10 +649,10 @@ footer .contactus ul {
     padding-top: 45px;
 }
 
-footer .container > div{
-    width: 370px;
+footer .container>div {
+    flex: 2;
 }
 
-footer .container > div,nav{
-   flex: 1;
+footer .container>nav {
+    flex: 1;
 }
