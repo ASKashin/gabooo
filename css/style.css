@@ -89,6 +89,14 @@ a {
     position: relative;
 }
 
+.main .botnavbar ul li a {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.main .botnavbar ul li:hover a {
+    opacity: 0.8;
+}
+
 .main .btn-input {
     padding-top: 10px;
 }
@@ -151,6 +159,7 @@ a {
 .menu .container a {
     color: #000;
     font-size: 13px;
+    transition: color 0.3s ease-in-out;
 }
 
 .menu .container ul {
@@ -166,6 +175,10 @@ a {
     margin-bottom: auto;
 }
 
+.menu .container ul li:hover a {
+    color: #777;
+}
+
 .menu .container img {
     width: 120px;
     height: 40px;
@@ -173,6 +186,10 @@ a {
 
 .menu ul li.active a {
     color: #e8603c;
+}
+
+.menu ul li.active:hover a{
+    color: #d17b63;
 }
 
 .header {
@@ -211,7 +228,13 @@ a {
     background-color: #f9f9f9;
     text-align: center;
     padding: 0;
-    line-height: 50px
+    line-height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .container a:hover {
+    background-color: #d3995f;
+    color: #fff;
 }
 
 .header .container img {
@@ -247,10 +270,19 @@ a {
 .popularnow .container a {
     color: #2a2a2a;
     font-size: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.popularnow .container a:hover {
+    color: #777;
 }
 
 .popularnow ul li.active a {
     color: #e8603c;
+}
+
+.popularnow ul li.active:hover a {
+    color: #d17b63;
 }
 
 .popularnow .container .item ul {
@@ -323,7 +355,13 @@ a {
     color: #2a2a2a;
     border: 1px solid #d3995f;
     background-color: #f9f9f9;
-    line-height: 50px
+    line-height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.collection .container p~a:hover {
+    color: #fff;
+    background-color: #d3995f;
 }
 
 .collection .collitem {
@@ -431,6 +469,12 @@ a {
     background-color: #d2985e;
     border: none;
     color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter .container .flex button:hover {
+    background-color: #d6a36f;
 }
 
 .from-collection .container {
@@ -463,16 +507,22 @@ a {
 
 .from-collection nav li {
     display: inline-block;
+}
+
+.from-collection nav li a {
     width: 100px;
     height: 50px;
     border: 1px solid #d2985e;
     line-height: 50px;
     text-align: center;
-}
-
-.from-collection .title.flex a {
+    transition: all 0.3s ease-in-out;
     font-size: 15px;
     color: #2a2a2a;
+}
+
+.from-collection nav li:hover a {
+    background-color: #d2985e;
+    color: #fff;
 }
 
 .from-collection .title.flex {
@@ -480,7 +530,7 @@ a {
     gap: 290px;
 }
 
-.from-collection .collection-items ul{
+.from-collection .collection-items ul {
     flex-wrap: wrap;
 }
 
@@ -520,6 +570,12 @@ a {
     height: 50px;
     line-height: 50px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.from-collection .link a:hover {
+    background-color: #d2985e;
+    color: #fff;
 }
 
 .about-us {
@@ -572,6 +628,12 @@ a {
     height: 50px;
     line-height: 50px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-us .info a:hover {
+    background-color: #d2985e;
+    color: #fff;
 }
 
 footer {
@@ -584,9 +646,14 @@ footer .container {
     gap: 30px;
 }
 
-footer p, a {
+footer p, footer a {
     color: #fff;
     font-size: 13px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+footer nav li:hover a {
+    opacity: 0.8;
 }
 
 footer h4 {
