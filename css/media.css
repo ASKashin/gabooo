@@ -1,0 +1,48 @@
+@media (max-width: 1170px) and (min-width: 640px) {
+    .container {
+        width: 640px !important;
+    }
+    header.main {
+        margin-bottom: 20px;
+    }
+    header.main .langmoney, header.main .botnavbar ul {
+        display: none;
+    }
+    header.main .botnavbar {
+        justify-content: flex-end;
+    }
+    section.menu {
+        margin-bottom: 20px;
+    }
+    section.header .container div:last-child {
+        display: none;
+    }
+    .header .container h1{
+        padding-top: 35px;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .header .container a{
+        display: block;
+        margin: 0 auto 35px;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .popularnow .container{
+        margin-top: 30px;
+    }
+
+    .popularnow .container nav ul{
+     padding-bottom: 30px;   
+    }
+
+    .popularnow .container .item ul{
+        justify-content: space-around;
+        width: 100%;
+        gap: 10px;
+    }
+}
