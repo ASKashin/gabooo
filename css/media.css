@@ -149,12 +149,11 @@
         flex-wrap: wrap;
     }
 
-    footer .container>div{
-
+    footer .container>div:last-child{
+display: none;
     }
 
-    footer .container>nav{
-    }
+
 
 
 }
