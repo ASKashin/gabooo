@@ -103,7 +103,7 @@ a {
 
 .main .botnavbar input {
     position: relative;
-    top: -2px;
+    top: -3px;
     right: -5px;
     height: 40px;
     border: none;
@@ -114,8 +114,9 @@ a {
 .main .botnavbar img {
     width: 20px;
     height: 20px;
-    background-color: #d2985e;
-}
+} 
+
+
 
 .main .botnavbar button {
     width: 40px;
@@ -123,6 +124,12 @@ a {
     background-repeat: no-repeat;
     border: none;
     background-color: #d2985e;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.main .botnavbar button:hover{
+    background-color: #d17b63;
 }
 
 .main .botnavbar .cart-icon {
@@ -140,6 +147,11 @@ a {
     text-align: center;
     position: relative;
     line-height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main .botnavbar .cart-icon a:hover{
+    background-color: #d17b63;
 }
 
 .main .botnavbar .cart-icon div {
@@ -287,7 +299,7 @@ a {
 
 .popularnow .container .item ul {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     gap: 30px;
     padding-bottom: 70px;
@@ -549,6 +561,7 @@ a {
     color: #2a2a2a;
     text-align: center;
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .from-collection .price {
@@ -656,6 +669,15 @@ footer p, footer a {
 footer nav li:hover a {
     opacity: 0.8;
 }
+
+footer .contactus  img{
+    transition: opacity 0.3s ease-in-out;
+}
+
+footer .contactus a:hover img{
+    opacity: 0.8;
+}
+
 
 footer h4 {
     font-weight: 400;

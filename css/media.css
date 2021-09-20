@@ -17,13 +17,13 @@
     section.header .container div:last-child {
         display: none;
     }
-    .header .container h1{
+    .header .container h1 {
         padding-top: 35px;
         font-size: 30px;
         text-align: center;
         padding-bottom: 20px;
     }
-    .header .container a{
+    .header .container a {
         display: block;
         margin: 0 auto 35px;
         width: 150px;
@@ -31,18 +31,130 @@
         line-height: 40px;
         font-size: 16px;
     }
-
-    .popularnow .container{
+    .collection .collitem ul {
+        flex-wrap: wrap;
+    }
+    .popularnow .container {
         margin-top: 30px;
     }
-
-    .popularnow .container nav ul{
-     padding-bottom: 30px;   
+    .popularnow .container nav ul {
+        padding-bottom: 30px;
     }
-
-    .popularnow .container .item ul{
-        justify-content: space-around;
+    .popularnow .container .item ul {
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
         width: 100%;
         gap: 10px;
+        padding-bottom: 30px;
     }
+    .collection .container>div:first-child {
+        padding-bottom: 30px;
+    }
+    .collection .collitem img {
+        padding-bottom: 20px;
+    }
+    .collection .collitem ul {
+        gap: 10px;
+    }
+    .collection .container {
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .collection .container div h3~p {
+        text-align: left;
+    }
+    .sale {
+        height: 150px;
+    }
+    .newsletter {
+        height: 80px;
+    }
+    .newsletter .container {
+        padding-top: 30px;
+    }
+    .newsletter .container p {
+        display: none;
+    }
+    .newsletter .container .flex {
+        margin: 0 auto;
+    }
+    .newsletter .container .flex input {
+        width: 350px;
+    }
+    .from-collection .title.flex {
+        flex-wrap: wrap;
+    }
+    .from-collection .title h3 {
+        padding-top: 40px;
+    }
+    .from-collection .container {
+        text-align: center;
+    }
+    .from-collection .title p {
+        text-align: left;
+    }
+    .from-collection .title.flex {
+        gap: 5px;
+        padding-bottom: 30px;
+    }
+    .from-collection .title.flex ul {
+        margin-top: 20px;
+    }
+    .from-collection nav {
+        margin: 0 auto;
+    }
+    .from-collection .collection-items img {
+        padding-bottom: 10px;
+    }
+    .from-collection .collection-items li {
+        margin-bottom: 20px;
+    }
+    .from-collection .link {
+        padding-bottom: 30px;
+    }
+    .from-collection .link a {
+        width: 170px;
+    }
+    .about-us .panther {
+        display: none;
+    }
+    .about-us .info {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-us .info h3 {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about-us .info img {
+        display: none;
+    }
+
+    .about-us .info p{
+        padding-bottom: 30px;
+        text-align: left;
+    }
+
+    .about-us .info a{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        padding: 30px 0 30px;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    footer .container>div{
+
+    }
+
+    footer .container>nav{
+    }
+
+
 }
